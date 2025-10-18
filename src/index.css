@@ -2,3 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+/* small helper to ensure child panes don't overflow */
+
+.min-h-24 {
+  min-height: 6rem;
+}
